@@ -1,0 +1,85 @@
+***************
+*SaladBot v0.1*
+***************
+
+SaladBot is a lightweight and customizable bot for your personal Discord server.
+
+Installation
+=============
+
+Local Installation
+..................
+-To install on your local machine, simply unpack the .zip file.
+
+-You will need to edit the .env file with your server's information. Keep in mind that if you plan to use SaladBot locally, you will need to create your own bot on your server to interface with SaladBot. 
+
+-Enter your Discord token and discord server in the .env file such that:
+	DISCORD_TOKEN=<discord token>
+	DISCORD_GUILD=<your discord server>
+
+Non-Local Use
+.............
+-If you do not want to run your bot locally, feel free to contact me at lettuce.boltzmann@gmail.com and provide me with your discord token and server. 
+
+-I will be able to add your information to run directly on my SaladBot server.
+
+-Keep in mind, that it might take me up to 24 hours to respond to your request. I will contact you when I have your bot connected on my server. 
+
+-Future versions will be able to handle this automatically on a website or something. Professional, I know.
+
+Use
+===
+
+-I have been purposely designing SaladBot to minimize the number of built-in commands so that it can be customized to your heart's content.
+
+-Built-in commands use a '?' as a prefix.
+-Custom commands use '!' as a prefix
+
+Built-In Commands
+.................
+?newcommand - This will add a new custom command.
+	Syntax: ?newcommand <new command name> <new command response>
+	**Requires admin in server role**
+
+?editcommand - This will edit an existing custom command.
+	Syntax: ?editcommand <command name> <new command response>
+	**Requires admin role in server**
+
+?removecommand - This will remove a command. Beware. This is irreversible.
+	Syntax: ?removecommand <command name>
+	**Requires admin role in server**
+
+?commands - Lists all custom commands.
+
+?uptime - Lists current uptime of the bot. This is mainly for monitoring purposes.
+	- Future versions may just write this to the console or a log file.
+
+?dice - Rolls dice for you. It can roll as many dice of as many sides as you please.
+	Syntax: ?dice <# of dice> <# of sides>
+
+?help - Lists help for all built-in commands
+
+Custom Commands
+...............
+-The custom commands are your oyster. SaladBot will never have any defined custom commands when you first begin using it, so you will need to create them on your own.
+
+-Currently, SaladBot can only handle text based commands. However, future versions will implement variable implementation and control flow.
+
+Future Plans
+============
+-Implement a customizable and personal FAQ list which will be hosted online as well as be completely accessible from your discord server.
+-Add programatic features to custom commands.
+-Full command based moderation.
+
+
+***************************************************************************************************************
+For questions, concerns, issues, and suggestions, please feel free to contact me at lettuce.boltzmann@gmail.com
+
+SaladBot is made available under the MIT License. https://choosealicense.com/licenses/mit/
+
+
+CHANGELOG
+=========
+7 July 2020: v0.1 relase.
+
+
